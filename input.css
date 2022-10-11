@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 190px;
+    padding: 40px;
+    border: 1px solid rgba(231, 231, 231, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.2);
+    background-color: var(--secondary-color);
+    background-image:  var(--fifty-color)
+}
+
+/* .container form {
+    padding: 10px 30px 50px 30px;
+}
+
+.container form .input{
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+
+.container form {
+    padding: 10px 30px 50px 30px;
+} */
+
+.header {
+    text-align: center;
+    margin: 20px;
+}
+
+.input-box {
+    padding: 30px 70px 30px 70px;
+    height: 80%;
+    width: 60%;
+    justify-content: center;
+    background-color: var(--primary-color);
+}
+
+.boxFirstname .boxLastName .boxEmail .boxUsername .boxPassword{
+    display: flex;
+    border: none;
+    outline: none;
+    background-color: unset;
+    padding-left: 15px;
+}
+
+.labelFirstName .labelLastName .labelEmail .labelUsername .labelPassword{
+    display: flex;
+    width: auto;
+    font-style: italic;
+}
+
+.contentCheckBox {
+    display: flex;
+    justify-content: center;
+    font-size: small;
+}
